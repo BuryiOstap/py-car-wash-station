@@ -41,7 +41,7 @@ class CarWashStation:
         future_average_rating = (((self.average_rating
                                   * self.count_of_ratings)
                                  + mark)
-                                 / (self.count_of_ratings 
+                                 / (self.count_of_ratings
                                     + 1))
         self.count_of_ratings = self.count_of_ratings + 1
         self.average_rating = round(future_average_rating, 1)
